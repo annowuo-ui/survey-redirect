@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>移動中...</title>
+  <script>
+    var forms = [
+      'https://docs.google.com/forms/d/e/1FAIpQLSc9KExtDRJ7LrfBzEWg23wcBg1HPv8_BD7Vwj2iSB5RJtXo0g/viewform',
+      'https://docs.google.com/forms/d/e/1FAIpQLSdUk-Fj-qd_9M3RCVdDPYPUjxciys1Pjs7x9W352CEFFUoD-w/viewform',
+      'https://docs.google.com/forms/d/e/1FAIpQLSeyHk1W6uTGKr5aEix4Lbxhr-VsjpJvcqcEgr3mviIJN005bA/viewform'
+    ];
+    var url = forms[Math.floor(Math.random() * forms.length)];
+    window.location.replace(url);
+  </script>
+</head>
+<body>
+  <p>移動しています...</p>
+</body>
+</html>
